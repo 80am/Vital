@@ -1,0 +1,420 @@
+body{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column
+}
+.Sero{
+    /* border: 1px magenta solid; */
+    color: #FC5000;
+    height: 100%;
+    font-size: 50px;
+    width: 24%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Pragati Narrow', sans-serif;
+}
+.hair{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: flex-end;
+    /* border: 1px cyan solid; */
+    height: 100%;
+    width: 40%;
+    color: lightgray;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.title{
+    display: flex;
+    /* border: 1px red solid; */
+    height: 50px;
+    width: 100vw;
+    justify-content: center;
+}
+.titleleft{
+    display: flex;
+    /* border: 1px blue solid; */
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.titleright{
+    /* border: 1px green solid; */
+    width: 30%;
+    display: flex;
+    height: 100%;
+    /* justify-content: center; */
+    justify-content: flex-start;
+    padding-right: 90px
+}
+a{
+    display: flex;
+    color: purple;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+}
+button{
+    width: 93px; 
+    border: none;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px */
+}
+#now{
+    background-color: #FC5000;
+    color: white;
+}
+.secondsection{
+    /* border: orange solid 1px; */
+    width: 100%;
+    display: flex;
+}
+    .centersecondsection{
+        display: flex;
+        justify-content: center;
+    }
+    .girlpic{
+        /* border: red 2px solid; */
+        width: 20%;
+    }
+    .centerofgirl{
+        /* border: green solid 1px; */
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    /* justify-content: center; */
+        align-items: center;
+    }
+
+
+    .vital{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        background-color: #FAFAFA
+        /* padding-right: 100px; */
+        /* border: 1px purple solid; */
+        
+    }
+    #vital{
+        color: #FC5000;
+        font-size: 40px;
+        font-family: 'Pragati Narrow', sans-serif;
+        line-height: 32px;
+    }
+    #bighair{
+        font-size: 70px;
+        margin: 0;
+        line-height: 55px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        /* font-weight: bold; */
+        
+    }
+    #bigreg{
+        font-size: 50px;
+        margin: 0;
+        line-height: 40px;
+        font-family: 'Open Sans Condensed', sans-serif;
+
+    }
+    p{
+        font-size: 15px;
+        margin: 0;
+        padding-right: 20px;
+    }
+    .noticeably{
+    color: #FF802B;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    /* border: aquamarine solid 1px; */
+    width: 65%;
+    padding-left: 25px;
+    }
+    .buttonseal{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: blue 2px solid; */
+    width: 70%;
+    padding-left: 50px;
+    }
+    #nows{
+    background-color: #FC5000;
+    color: white;
+    height: 40px;
+    margin: 0 10px 0 0;
+    width: 60%;
+    font-size: 20px;
+    }
+    .buttonseal img{
+        /* margin: 0 0 0 10px; */
+        padding-left: 10px
+    }
+
+.rightofgirl{
+/* border: aquamarine solid 2px; */
+width: 30%;
+z-index: 10;
+position: relative;
+}
+.thirdsection{
+    /* border: black solid 1px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 450px;
+    border: 1px #FC5000 solid;
+    border-radius: 10px;
+    margin: 0 15px 0 0;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 450px;
+    border: 1px #FC5000 solid;
+    border-radius: 10px;
+    margin: 0 0 0 15px;
+}
+#topoffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A30005;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 13%
+}
+/* #topoffer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A30005;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 13%
+} */
+.offerleftcenter{
+    display: flex;
+    height: 60%;
+}
+.offerrightcenter{
+    display: flex;
+    height: 60%;
+}
+.nexttoimage{
+    /* border: 1px aquamarine solid; */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 10px
+}
+.one{
+    padding-top: 10px;
+}
+.two{
+    display: flex;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 15
+
+}
+#amount{
+    font-size: 46px;
+    line-height: 1.2
+}
+#maroon{
+    color: #A30005;
+    font-size: 13px
+}
+.offerbutton{
+    background-color: #FC5000;
+    color: white;
+    width: 115px;
+    height: 25px;
+    font-size: 15px;
+}
+#fontsize{
+    font-size: 10px;
+    /* padding-bottom: 50px */
+}
+#formulated{
+    color: #FC5000;
+    padding-left: 20px;
+}
+.checkmarkoffer{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    /* border: 1px solid blue; */
+    height: 48px;
+}
+.checkmarkoffer p{
+    font-size: 12px
+}
+.rightofgirl2{
+    display: none;
+}
+
+
+@media(max-width:414px){
+    .title{
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px 0 0 0; */
+        /* border: 1px aquamarine solid; */
+        height: 100px;
+    }
+    .titleleft{
+        /* border: red 1px solid; */
+        width: 100vw;
+    }
+    .titleright{
+        height: 50px;
+        width: 100vw;
+        display: flex;
+        /* margin: 0; */
+        justify-content: flex-start
+    }
+    .Sero{
+        padding-left: 25px;
+    }
+    .hair{
+        padding-right: 40px;
+        font-size: 29px;
+    }
+    .titleleft{
+        display: flex;
+        justify-content: space-around;
+        padding-right: 20px
+    }
+    a{
+        margin: 0 8px 0 0;   
+    }
+    .secondsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .centersecondsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .girlpic{
+        width: 95%
+    }
+    .centerofgirl{
+        width: 95%
+    }
+    .buttonseal{
+        /* border: blue 1px solid; */
+        padding-right: 55px;
+    }
+    .rightofgirl{
+        width: 95%
+    }
+    .thirdsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin: 0;
+        width: 93%
+    }
+    .left{
+        margin: 0 0 5px 0;
+        width: 93%
+    }
+    .rightofgirl2{
+        display: none;
+    }
+}
+@media all and (max-width:700px) and (min-width: 415px){
+    .title{
+        display: flex;
+        flex-direction: column;
+        /* margin: 10px 0 0 0; */
+        /* border: 1px aquamarine solid; */
+        height: 100px;
+    }
+    .titleleft{
+        /* border: red 1px solid; */
+        width: 100vw;
+    }
+    .titleright{
+        height: 50px;
+        width: 100vw;
+        display: flex;
+        /* margin: 0; */
+        justify-content: center
+    }
+    .Sero{
+        /* display: flex;
+        justify-content: flex-end; */
+        padding-left: 170px;
+    }
+    .hair{
+        padding-right: 40px;
+        font-size: 29px;
+    }
+    .titleleft{
+        display: flex;
+        justify-content: space-around;
+        padding-right: 20px
+    }
+    a{
+        margin: 0 8px 0 0;
+    }
+    .secondsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .centersecondsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .girlpic{
+        display: none;
+        width: 95%
+    }
+    .centerofgirl{
+        width: 95%
+    }
+    .buttonseal{
+        /* border: blue 1px solid; */
+        padding-right: 55px;
+    }
+    .rightofgirl{
+        width: 95%
+    }
+    .thirdsection{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin: 0;
+        width: 93%
+    }
+    .left{
+        margin: 0 0 5px 0;
+        width: 93%
+    }
+    .rightofgirl{
+        display: none;
+    }
+    .rightofgirl2{
+        display: block;
+    }
+}
